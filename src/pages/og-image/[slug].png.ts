@@ -8,7 +8,7 @@ import { getFormattedDate } from "@/utils";
 import { Resvg } from "@resvg/resvg-js";
 import satori, { type SatoriOptions } from "satori";
 import { html } from "satori-html";
-
+export const prerender = true;
 const ogOptions: SatoriOptions = {
 	// debug: true,
 	fonts: [
