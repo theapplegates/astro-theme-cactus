@@ -40,7 +40,7 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"]
     },
-    plugins: [rawFonts([".ttf", ".woff"])]
+    plugins: [rawFonts([".ttf", ".woff", ".woff2"])]
   },
   output: "server",
   adapter: netlify({

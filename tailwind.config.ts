@@ -50,8 +50,8 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: [...fontFamily.sans],
-				serif: [...fontFamily.serif],
+				sans: ['Raleway'],
+				serif: ['Cormorant Garamond'],
 			},
 			transitionProperty: {
 				height: "height",
