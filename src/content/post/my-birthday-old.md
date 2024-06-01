@@ -9,6 +9,8 @@ Today I am 55. I'm looking forward to a nap already.
 
 ![Yum cake](src/assets/images/cake.jpg)
 
+![A beautiful flower](src/assets/images/303312.jpg)
+
 <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/dpr_auto,f_auto,q_auto/hillshire-farm-2_fx2mno.jpg" >
 
 <img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/dpr_auto,f_auto,q_auto/Beautiful_Italy.jpg" class="cld-responsive">
