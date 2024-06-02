@@ -50,8 +50,8 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: ['Nunito Sans Variable'],
-                serif: ['Playfair Display Variable'],
+				sans: ['Roboto Flex'],
+                serif: ['Roboto Flex'],
 			},
 			transitionProperty: {
 				height: "height",
