@@ -51,7 +51,7 @@ export default {
 			fontFamily: {
 				// Add any custom fonts here
 				sans: ['Cormorant Garamond'],
-                serif: ['Raleway'],
+                serif: ['Cormorant Garamond'],
 			},
 			transitionProperty: {
 				height: "height",
