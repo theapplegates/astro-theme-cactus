@@ -50,8 +50,8 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: ['Cormorant Garamond'],
-                serif: ['Cormorant Garamond'],
+				sans: ['Nunito Sans Variable'],
+                serif: ['Playfair Display Variable'],
 			},
 			transitionProperty: {
 				height: "height",

@@ -17,6 +17,8 @@
     "@astrojs/rss": "4.0.5",
     "@astrojs/sitemap": "3.1.2",
     "@astrojs/tailwind": "5.1.0",
+    "@fontsource-variable/nunito-sans": "^5.0.14",
+    "@fontsource-variable/playfair-display": "^5.0.25",
     "astro": "4.5.16",
     "astro-expressive-code": "^0.34.1",
     "astro-icon": "^1.1.0",
