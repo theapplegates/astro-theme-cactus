@@ -1,7 +1,8 @@
 import type { APIContext, InferGetStaticPropsType } from "astro";
 
-import RobotoMonoBold from "@/assets/roboto-mono-700.ttf";
-import RobotoMono from "@/assets/roboto-mono-regular.ttf";
+//import RobotoMonoBold from "@/assets/roboto-mono-700.ttf";
+//import RobotoMono from "@/assets/roboto-mono-regular.ttf";
+import GeistMono from "@/assets/GeistMonoVariableVF.woff2";
 import { getAllPosts } from "@/data/post";
 import { siteConfig } from "@/site-config";
 import { getFormattedDate } from "@/utils";
@@ -13,16 +14,10 @@ const ogOptions: SatoriOptions = {
 	// debug: true,
 	fonts: [
 		{
-			data: Buffer.from(RobotoMono),
-			name: "Roboto Mono",
+			data: Buffer.from(GeistMono),
+			name: "GeistMono",
 			style: "normal",
 			weight: 400,
-		},
-		{
-			data: Buffer.from(RobotoMonoBold),
-			name: "Roboto Mono",
-			style: "normal",
-			weight: 700,
 		},
 	],
 	height: 630,

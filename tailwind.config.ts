@@ -50,7 +50,7 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: ['Roboto Flex'],
+				sans: ['GeistSans'],
                 serif: ['Roboto Flex'],
 			},
 			transitionProperty: {
