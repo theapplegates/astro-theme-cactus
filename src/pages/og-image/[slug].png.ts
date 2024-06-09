@@ -1,8 +1,7 @@
 import type { APIContext, InferGetStaticPropsType } from "astro";
 
-//import RobotoMonoBold from "@/assets/roboto-mono-700.ttf";
-//import RobotoMono from "@/assets/roboto-mono-regular.ttf";
-import GeistMono from "@/assets/GeistMonoVariableVF.woff2";
+import RobotoMonoBold from "@/assets/roboto-mono-700.ttf";
+import RobotoMono from "@/assets/roboto-mono-regular.ttf";
 import { getAllPosts } from "@/data/post";
 import { siteConfig } from "@/site-config";
 import { getFormattedDate } from "@/utils";
@@ -12,18 +11,23 @@ import { html } from "satori-html";
 export const prerender = true;
 const ogOptions: SatoriOptions = {
 	// debug: true,
-	fonts: [
-		{
-			data: Buffer.from(GeistMono),
-			name: "GeistMono",
-			style: "normal",
-			weight: 400,
-		},
-	],
-	height: 630,
-	width: 1200,
-};
-
+  fonts: [
+      {
+        data: Buffer.from(RobotoMono),
+        name: "Roboto Mono",
+        style: "normal",
+        weight: 400,
+      },
+      {
+        data: Buffer.from(RobotoMonoBold),
+        name: "Roboto Mono",
+        style: "normal",
+        weight: 700,
+      },
+    ],
+    height: 630,
+    width: 1200,
+  };
 const markup = (title: string, pubDate: string) =>
 	html`<div tw="flex flex-col w-full h-full bg-[#1d1f21] text-[#c9cacc]">
 		<div tw="flex flex-col flex-1 w-full p-10 justify-center">
