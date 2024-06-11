@@ -4,6 +4,8 @@ description: "When I was ten I was  on a game show. I lost, but had the time of 
 publishDate: "2024-04-07"
 tags: ["game show"]
 ---
+![A beautiful flower](src/assets/images/796435.jpg)
+
 ![Title Image](https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit/dpr_auto/f_auto,q_auto/w_auto:breakpoints_200_1920_30_15/Pyramid-title_gonkjb.jpg)
 
 I let AI write/improve my words. Here is what it wrote:
