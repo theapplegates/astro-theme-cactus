@@ -6,6 +6,7 @@ tags: ["birthday"]
 ---
 
 Today I am 55. I'm looking forward to a nap already.
+<img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/dpr_auto/f_auto,q_auto/alan-veas-mountains_lmtilx.jpg" class="cld-responsive">
 
 ![Yum cake](src/assets/images/cake.jpg)
 
