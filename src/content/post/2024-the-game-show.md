@@ -4,9 +4,19 @@ description: "When I was ten I was  on a game show. I lost, but had the time of 
 publishDate: "2024-04-07"
 tags: ["game show"]
 ---
+import { Image } from "@unpic/astro";
+
 ![A beautiful flower](src/assets/images/796435.jpg)
 
 ![Title Image](https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit/dpr_auto/f_auto,q_auto/w_auto:breakpoints_200_1920_30_15/Pyramid-title_gonkjb.jpg)
+
+<Image
+  src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1717891026/alan-veas-mountains_lmtilx.jpg"
+  layout="constrained"
+  width={1000}
+  height={800}
+  alt="A lovely bath"
+/>
 
 I let AI write/improve my words. Here is what it wrote:
 When I was just ten years old, I found myself under the dazzling lights of a game show set. It's a memory that brings a smile to my face every time I think about it. The adventure began when my mother was auditioning for the $20,000 Pyramid. She had already breezed through three interviews and demo games, and was on the brink of being selected.

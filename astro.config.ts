@@ -9,22 +9,30 @@ import rehypeExternalLinks from "rehype-external-links";
 import remarkUnwrapImages from "remark-unwrap-images";
 import { expressiveCodeOptions } from "./src/site.config";
 import { remarkReadingTime } from "./src/utils/remark-reading-time";
-
 import netlify from "@astrojs/netlify";
+import { imageService } from "@unpic/astro/service";
 
 // https://astro.build/config
 export default defineConfig({
-  image: {
-    domains: ["webmention.io"]
-  },
-  integrations: [expressiveCode(expressiveCodeOptions), icon(), tailwind({
-    applyBaseStyles: false
-  }), sitemap(), mdx()],
+  integrations: [
+    expressiveCode(expressiveCodeOptions),
+    icon(),
+    tailwind({
+      applyBaseStyles: false
+    }),
+    sitemap(),
+    mdx()
+  ],
   markdown: {
-    rehypePlugins: [[rehypeExternalLinks, {
-      rel: ["nofollow, noopener, noreferrer"],
-      target: "_blank"
-    }]],
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,
+        {
+          rel: ["nofollow, noopener, noreferrer"],
+          target: "_blank"
+        }
+      ]
+    ],
     remarkPlugins: [remarkUnwrapImages, remarkReadingTime],
     remarkRehype: {
       footnoteLabelProperties: {
@@ -48,15 +56,21 @@ export default defineConfig({
     imageCDN: true,
     edgeMiddleware: true,
   }),
+  image: {
+    service: imageService({
+      fallbackService: "sharp",
+      placeholder: "blurhash",
+      layout: "constrained",
+      domains: ["webmention.io"]
+    })
+  }
 });
+
 function rawFonts(ext: string[]) {
   return {
     name: "vite-plugin-raw-fonts",
-    // @ts-expect-error:next-line
     transform(_, id) {
-      // eslint-disable-next-line
       if (ext.some(e => id.endsWith(e))) {
-        // eslint-disable-next-line
         const buffer = fs.readFileSync(id);
         return {
           code: `export default ${JSON.stringify(buffer)}`,
