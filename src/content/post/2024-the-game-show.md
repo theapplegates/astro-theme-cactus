@@ -4,7 +4,6 @@ description: "When I was ten I was  on a game show. I lost, but had the time of 
 publishDate: "2024-04-07"
 tags: ["game show"]
 ---
-import { Image } from "@unpic/astro";
 
 ![A beautiful flower](src/assets/images/796435.jpg)
 
