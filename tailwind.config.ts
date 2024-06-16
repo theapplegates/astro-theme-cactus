@@ -48,11 +48,10 @@ export default {
 				quote: "hsl(var(--theme-quote) / <alpha-value>)",
 				textColor: "hsl(var(--theme-text) / <alpha-value>)",
 			},
-			fontFamily: {
-				// Add any custom fonts here
-				sans: ['GeistSans'],
-                serif: ['Roboto Flex'],
-			},
+    fontFamily: {
+        sans: ['Bitter', ...fontFamily.sans],
+        serif: ['Mulish', ...fontFamily.serif],
+      },
 			transitionProperty: {
 				height: "height",
 			},
