@@ -49,8 +49,8 @@ export default {
 				textColor: "hsl(var(--theme-text) / <alpha-value>)",
 			},
     fontFamily: {
-        sans: ['Bitter', ...fontFamily.sans],
-        serif: ['Mulish', ...fontFamily.serif],
+        sans: ['Roboto Flex', ...fontFamily.sans],
+        serif: ['Roboto Flex', ...fontFamily.serif],
       },
 			transitionProperty: {
 				height: "height",
