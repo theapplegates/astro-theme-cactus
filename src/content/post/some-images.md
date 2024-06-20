@@ -8,7 +8,7 @@ tags: ["Unpic", "unsplash"]
 Some nice pictures from Unsplash.
 
 <Image
-  src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1718838447/bob-brewer_ayzghl.jpg"
+  src="https://res.cloudinary.com/paulapplegate-com/image/upload/bob-brewer_ayzghl.jpg"
   layout="constrained"
   width={1920}
   height={1224}
@@ -19,7 +19,7 @@ Some nice pictures from Unsplash.
 </span>
 
 <Image
-      src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1718838447/pawel-czerwinski_r4l442.jpg"
+      src="https://res.cloudinary.com/paulapplegate-com/image/upload/pawel-czerwinski_r4l442.jpg"
       layout="constrained"
       width={1920}
       height={1280}
