@@ -5,9 +5,7 @@ publishDate: "19 June 2024"
 tags: ["Unpic", "unsplash"]
 ---
 
-
 Some nice pictures from Unsplash.
-
 
 <Image
   src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1718838447/bob-brewer_ayzghl.jpg"
