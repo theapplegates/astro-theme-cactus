@@ -14,6 +14,14 @@ import { imageService } from "@unpic/astro/service";
 
 // https://astro.build/config
 export default defineConfig({
+  image: {
+    service: imageService({
+      fallbackService: "sharp",
+      placeholder: "lqip",
+      layout: "constrained",
+      domains: ["webmention.io"]
+    })
+  },
   integrations: [
     expressiveCode(expressiveCodeOptions),
     icon(),
@@ -28,7 +36,7 @@ export default defineConfig({
       [
         rehypeExternalLinks,
         {
-          rel: ["nofollow, noopener, noreferrer"],
+          rel: ["nofollow", "noopener", "noreferrer"],
           target: "_blank"
         }
       ]
@@ -55,18 +63,10 @@ export default defineConfig({
     cacheOnDemandPages: true,
     imageCDN: true,
     edgeMiddleware: true,
-  }),
-  image: {
-    service: imageService({
-      fallbackService: "sharp",
-      placeholder: "blurhash",
-      layout: "constrained",
-      domains: ["webmention.io"]
-    })
-  }
+  })
 });
 
-function rawFonts(ext: string[]) {
+function rawFonts(ext) {
   return {
     name: "vite-plugin-raw-fonts",
     transform(_, id) {
