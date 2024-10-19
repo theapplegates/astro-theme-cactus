@@ -22,7 +22,7 @@ import rehypeExternalLinks from "rehype-external-links";
 // https://astro.build/config
 export default defineConfig({
 	image: {
-		domains: ["webmention.io"],
+		domains: ["webmention.io", "res.cloudinary.com", "cactus.paulapplegate.com"],
 	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
@@ -95,7 +95,7 @@ export default defineConfig({
 	// https://docs.astro.build/en/guides/prefetch/
 	prefetch: true,
 	// ! Please remember to replace the following site property with your own domain
-	site: "https://astro-cactus.chriswilliams.dev/",
+	site: "https://cactus.paulapplegate.com/",
 	vite: {
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
