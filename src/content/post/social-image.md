@@ -7,7 +7,9 @@ ogImage: "/social-card.png"
 ---
 
 
-  import { CldImage } from 'astro-cloudinary';
+
+
+
 
   <CldImage
     src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1728609985/cnqkojhoqfo7ehdclxrc.jxl"
@@ -16,7 +18,7 @@ ogImage: "/social-card.png"
     sizes="(max-width: 768px) 100vw,
           (max-width: 1200px) 50vw,
           33vw"
-    alt="<Description>"
+    alt="A cake"
   />
 
 ## Adding your own social image to a post
