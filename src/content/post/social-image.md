@@ -10,7 +10,6 @@ ogImage: "/social-card.png"
 
 
 
-
   <CldImage
     src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1728609985/cnqkojhoqfo7ehdclxrc.jxl"
     width="800"
