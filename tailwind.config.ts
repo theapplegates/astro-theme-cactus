@@ -44,11 +44,13 @@ export default {
 				quote: "hsl(var(--theme-quote) / <alpha-value>)",
 				textColor: "hsl(var(--theme-text) / <alpha-value>)",
 			},
-			fontFamily: {
-				// Add any custom fonts here
-				sans: [...fontFamily.sans],
-				serif: [...fontFamily.serif],
-			},
+            fontFamily: {
+            sans: ['GeistMono'],
+            mono: ['Geist'],
+            },
+            corePlugins: {
+              preflight: true, // Ensures Tailwind's base styles are applied
+            },
 			transitionProperty: {
 				height: "height",
 			},

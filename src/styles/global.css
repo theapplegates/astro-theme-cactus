@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply font-sans bg-white text-black;
+ /* Applies the sans-serif font family globally */
+  }
 	:root,
 	:root[data-theme="light"] {
 		color-scheme: light;
