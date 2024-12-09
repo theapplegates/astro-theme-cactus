@@ -21,7 +21,12 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 
 // https://astro.build/config
 export default defineConfig({
+  experimental: {
+    responsiveImages: true,
+    svg: true,
+  },
 	image: {
+        experimentalLayout: 'responsive',
 		domains: ["webmention.io"],
 	},
 	integrations: [
