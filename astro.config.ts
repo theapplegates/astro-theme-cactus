@@ -27,7 +27,7 @@ export default defineConfig({
   },
 	image: {
         experimentalLayout: 'responsive',
-		domains: ["webmention.io"],
+		domains: ["webmention.io", "cactus.paulapplegate.com"],
 	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),

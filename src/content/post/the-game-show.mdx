@@ -6,6 +6,9 @@ publishDate: "08 November 2024"
 ---
 
 import { CldImage } from 'astro-cloudinary';
+import { Image } from 'astro:assets';
+import myImage from '/src/assets/font.jpg';
+import planet from '/src/assets/planet.jpg';
 
 <CldImage
   src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1728677724/lfpxvwsaqmzfxjov8fmq.jxl"
@@ -14,6 +17,13 @@ import { CldImage } from 'astro-cloudinary';
   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
   alt="A game show"
 />
+
+
+
+<Image src={myImage} alt="This will use responsive layout" width={800} height={600} layout="responsive" />
+
+<Image src={planet} alt="This will use responsive layout" width={1000} height={800} layout="responsive" />
+
 
 I let AI write/improve my words. Here is what it wrote:
 When I was just ten years old, I found myself under the dazzling lights of a game show set. It's a memory that brings a smile to my face every time I think about it. The adventure began when my mother was auditioning for the $20,000 Pyramid. She had already breezed through three interviews and demo games, and was on the brink of being selected.
