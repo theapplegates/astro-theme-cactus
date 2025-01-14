@@ -45,8 +45,8 @@ export default {
 				textColor: "hsl(var(--theme-text) / <alpha-value>)",
 			},
             fontFamily: {
-            sans: ['GeistMono'],
-            mono: ['Geist'],
+            sans: ['wotfardregular'],
+            mono: ['wotfardregular'],
             },
             corePlugins: {
               preflight: true, // Ensures Tailwind's base styles are applied
