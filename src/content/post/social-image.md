@@ -6,8 +6,6 @@ tags: ["example", "blog", "image"]
 ogImage: "/social-card.png"
 ---
 
-import { Source } from "@unpic/astro";
-
 
 <picture class="hero">
   <!-- Large screens get a full-width hero image -->
