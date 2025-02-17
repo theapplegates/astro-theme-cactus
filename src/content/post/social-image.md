@@ -76,7 +76,7 @@ ogImage: "/social-card.png"
   }
 </style>
 <p class="credit-container">
-  <em>Photo by <a href="https://unsplash.com/photos/a-person-in-a-red-coat-looking-at-a-christmas-tree-VjxDMq6pt8M?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash">Maksym Mazur</a> on</em>
+  <em>Photo by <a href="https://unsplash.com/photos/an-island-in-the-middle-of-a-lake-covered-in-snow-1JRZN1K8cGo?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash">Benaja Germann</a> on</em>
   <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
     <path d="M448,230.17V480H0V230.17H141.13V355.09H306.87V230.17ZM306.87,32H141.13V156.91H306.87Z"/>
   </svg>
