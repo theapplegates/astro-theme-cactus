@@ -2,6 +2,25 @@
 @import "tailwindcss";
 /* config for tailwindcss-typography plugin */
 @config "../../tailwind.config.ts";
+.shadow-wrapper {
+  box-shadow:
+    3.4px 3.4px 2.7px rgba(0, 0, 0, 0.052),
+    8.7px 8.7px 6.9px rgba(0, 0, 0, 0.076),
+    17.7px 17.7px 14.2px rgba(0, 0, 0, 0.096),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.117),
+    100px 100px 80px rgba(0, 0, 0, 0.16);
+}
+
+@media (prefers-color-scheme: dark) {
+  .shadow-wrapper {
+    box-shadow:
+      3.4px 3.4px 2.7px rgba(0, 0, 0, 0.052),
+      8.7px 8.7px 6.9px rgba(0, 0, 0, 0.076),
+      17.7px 17.7px 14.2px rgba(0, 0, 0, 0.096),
+      36.5px 36.5px 29.2px rgba(0, 0, 0, 0.117),
+      100px 100px 80px rgba(0, 0, 0, 0.16);
+}
+}
 
 /* use a selector-based strategy for dark mode */
 @variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));

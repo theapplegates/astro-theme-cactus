@@ -5,6 +5,9 @@ description: "An example post for Astro Cactus, detailing how to add a custom so
 tags: ["example", "blog", "image"]
 ogImage: "/social-card.png"
 ---
+
+<link rel="stylesheet" href="/styles/global.css">
+
 <div class="shadow-wrapper">
 <picture class="responsive-picture">
   <source media="(min-width: 1200px)" type="image/jxl" sizes="40vw"

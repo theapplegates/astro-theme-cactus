@@ -5,6 +5,7 @@ publishDate: "22 Feb 2023"
 updatedDate: 22 Jan 2024
 tags: ["test", "markdown"]
 ---
+<link rel="stylesheet" href="styles/global.css">
 
 ## This is a H2 Heading
 
@@ -176,98 +177,450 @@ Image in the same folder: `src/content/post/markdown-elements/logo.png`
 
 <div class="shadow-wrapper">
 <picture class="responsive-picture">
-  <!-- Desktop (≥1200px) - Original aspect ratio -->
-  <source media="(min-width: 1200px)" type="image/jxl"
-          sizes="40vw"
+  <source media="(min-width: 1200px)" type="image/jxl" sizes="40vw"
           srcset="
-            https://res.cloudinary.com/.../c_scale,w_860/dpr_1.0/... 860w,
-            https://res.cloudinary.com/.../c_scale,w_860/dpr_2.0/... 1720w,
-            <!-- ... other width variants ... -->
-          ">
-  <source media="(min-width: 1200px)" type="image/avif"
-          sizes="40vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 500w
+  "/>
+  <source media="(min-width: 1200px)" type="image/avif" sizes="40vw"
           srcset="
-            https://res.cloudinary.com/.../c_scale,w_860/dpr_1.0/... 860w,
-            https://res.cloudinary.com/.../c_scale,w_860/dpr_2.0/... 1720w,
-            <!-- ... other width variants ... -->
-          ">
-  <source media="(min-width: 1200px)" type="image/jpeg"
-          sizes="40vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.avif 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.avif 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.avif 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.avif 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.avif 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.avif 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.avif 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.avif 500w
+  "/>
+  <source media="(min-width: 1200px)" type="image/jpeg" sizes="40vw"
           srcset="
-            https://res.cloudinary.com/.../c_scale,w_860/dpr_1.0/... 860w,
-            https://res.cloudinary.com/.../c_scale,w_860/dpr_2.0/... 1720w,
-            <!-- ... other width variants ... -->
-          ">
-
-  <!-- Small laptops (992-1199px) - 16:9 aspect ratio -->
-  <source media="(min-width: 992px) and (max-width: 1199px)" type="image/jxl"
-          sizes="60vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_1.0/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/dpr_2.0/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 500w
+  "/>
+  <source media="(min-width: 992px) and (max-width: 1199px)" type="image/jxl" sizes="60vw"
           srcset="
-            https://res.cloudinary.com/.../ar_16:9,c_fill,w_1290/dpr_1.0/... 1290w,
-            https://res.cloudinary.com/.../ar_16:9,c_fill,w_1290/dpr_2.0/... 2580w,
-            <!-- ... other width variants ... -->
-          ">
-  <source media="(min-width: 992px) and (max-width: 1199px)" type="image/avif"
-          sizes="60vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 500w
+  "/>
+  <source media="(min-width: 992px) and (max-width: 1199px)" type="image/avif" sizes="60vw"
           srcset="
-            https://res.cloudinary.com/.../ar_16:9,c_fill,w_1290/dpr_1.0/... 1290w,
-            https://res.cloudinary.com/.../ar_16:9,c_fill,w_1290/dpr_2.0/... 2580w,
-            <!-- ... other width variants ... -->
-          ">
-  <source media="(min-width: 992px) and (max-width: 1199px)" type="image/jpeg"
-          sizes="60vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.avif 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.avif 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.avif 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.avif 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.avif 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.avif 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.avif 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.avif 500w
+  "/>
+  <source media="(min-width: 992px) and (max-width: 1199px)" type="image/jpeg" sizes="60vw"
           srcset="
-            https://res.cloudinary.com/.../ar_16:9,c_fill,w_1290/dpr_1.0/... 1290w,
-            https://res.cloudinary.com/.../ar_16:9,c_fill,w_1290/dpr_2.0/... 2580w,
-            <!-- ... other width variants ... -->
-          ">
-
-  <!-- Tablets (768-991px) - 4:3 aspect ratio -->
-  <source media="(min-width: 768px) and (max-width: 991px)" type="image/jxl"
-          sizes="70vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 500w
+  "/>
+  <source media="(min-width: 768px) and (max-width: 991px)" type="image/jxl" sizes="70vw"
           srcset="
-            https://res.cloudinary.com/.../ar_4:3,c_fill,w_700/dpr_1.0/... 700w,
-            https://res.cloudinary.com/.../ar_4:3,c_fill,w_700/dpr_2.0/... 1400w,
-            <!-- ... other width variants ... -->
-          ">
-  <source media="(min-width: 768px) and (max-width: 991px)" type="image/avif"
-          sizes="70vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 500w
+  "/>
+  <source media="(min-width: 768px) and (max-width: 991px)" type="image/avif" sizes="70vw"
           srcset="
-            https://res.cloudinary.com/.../ar_4:3,c_fill,w_700/dpr_1.0/... 700w,
-            https://res.cloudinary.com/.../ar_4:3,c_fill,w_700/dpr_2.0/... 1400w,
-            <!-- ... other width variants ... -->
-          ">
-  <source media="(min-width: 768px) and (max-width: 991px)" type="image/jpeg"
-          sizes="70vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.avif 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.avif 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.avif 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.avif 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.avif 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.avif 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.avif 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.avif 500w
+  "/>
+  <source media="(min-width: 768px) and (max-width: 991px)" type="image/jpeg" sizes="70vw"
           srcset="
-            https://res.cloudinary.com/.../ar_4:3,c_fill,w_700/dpr_1.0/... 700w,
-            https://res.cloudinary.com/.../ar_4:3,c_fill,w_700/dpr_2.0/... 1400w,
-            <!-- ... other width variants ... -->
-          ">
-
-  <!-- Smartphones (<767px) - 1:1 aspect ratio -->
-  <source media="(max-width: 767px)" type="image/jxl"
-          sizes="100vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 500w
+  "/>
+  <source media="(max-width: 767px)" type="image/jxl" sizes="100vw"
           srcset="
-            https://res.cloudinary.com/.../ar_1:1,c_fill,w_400/dpr_1.0/... 400w,
-            https://res.cloudinary.com/.../ar_1:1,c_fill,w_400/dpr_2.0/... 800w,
-            <!-- ... other width variants ... -->
-          ">
-  <source media="(max-width: 767px)" type="image/avif"
-          sizes="100vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jxl 500w
+  "/>
+  <source media="(max-width: 767px)" type="image/avif" sizes="100vw"
           srcset="
-            https://res.cloudinary.com/.../ar_1:1,c_fill,w_400/dpr_1.0/... 400w,
-            https://res.cloudinary.com/.../ar_1:1,c_fill,w_400/dpr_2.0/... 800w,
-            <!-- ... other width variants ... -->
-          ">
-  <source media="(max-width: 767px)" type="image/jpeg"
-          sizes="100vw"
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.avif 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.avif 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.avif 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.avif 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.avif 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.avif 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.avif 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.avif 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.avif 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.avif 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.avif 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.avif 500w
+  "/>
+  <source media="(max-width: 767px)" type="image/jpeg" sizes="100vw"
           srcset="
-            https://res.cloudinary.com/.../ar_1:1,c_fill,w_400/dpr_1.0/... 400w,
-            https://res.cloudinary.com/.../ar_1:1,c_fill,w_400/dpr_2.0/... 800w,
-            <!-- ... other width variants ... -->
-          ">
-
-  <img src="fallback.jpg" alt="Descriptive alt text" loading="lazy">
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2150/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4300w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2077w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2077/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4154w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2056w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2056/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4112w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2044w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_2044/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 4088w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1974w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1974/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3948w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1955w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1955/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1738w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1738/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1743w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1743/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3486w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1648w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1648/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 3296w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1422w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1422/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1427w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_1427/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 2854w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 896w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_896/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1792w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 872w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_872/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1744w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 724w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_724/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1448w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 662w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_662/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 1324w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 476w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_476/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 952w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_1.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 250w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill,g_auto/dpr_2.0/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg 500w
+  "/>
+  <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_250/v1740084649/mzvuqsf2yor1k2fxrsas.jpeg" alt="Responsive Image" loading="lazy">
 </picture>
 </div>
