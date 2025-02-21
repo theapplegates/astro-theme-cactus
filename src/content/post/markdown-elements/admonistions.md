@@ -6,6 +6,9 @@ updatedDate: "7 Jan 2025"
 tags: ["markdown", "admonitions"]
 ---
 
+<link rel="stylesheet" href="styles/global.css">
+
+
 ## What are admonitions
 
 Admonitions (also known as “asides”) are useful for providing supportive and/or supplementary information related to your content.
