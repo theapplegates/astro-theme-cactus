@@ -6,6 +6,8 @@ tags: ["example", "blog", "image"]
 ogImage: "/social-card.png"
 ---
 
+![Pic](/src/assets/marek-piwnicki-mountains.jpg)
+
 ## Adding your own social image to a post
 
 This post is an example of how to add a custom [open graph](https://ogp.me/) social image, also known as an OG image, to a blog post.
