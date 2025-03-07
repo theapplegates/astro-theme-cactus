@@ -37,6 +37,37 @@
 	}
 }
 
+:root {
+  --shadow-color: 0deg 0% 63%;
+  --shadow-light: var(--shadow-elevation-low);
+  --shadow-default: var(--shadow-elevation-medium);
+  --shadow-hover: var(--shadow-elevation-high);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --shadow-color: 0deg 0% 20%; /* Darker shadow color in dark mode */
+    --shadow-light: var(--shadow-elevation-low);
+    --shadow-default: var(--shadow-elevation-medium);
+    --shadow-hover: var(--shadow-elevation-high);
+  }
+}
+
+.shadow-wrapper {
+  display: inline-block; /* Prevents wrapping issues */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.shadow-wrapper img {
+  display: block; /* Removes default inline spacing */
+  box-shadow: var(--shadow-default);
+  transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.shadow-wrapper:hover img {
+  box-shadow: var(--shadow-hover);
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
 @layer components {
 	.cactus-link {
 		@apply hover:decoration-link underline underline-offset-2 hover:decoration-2;

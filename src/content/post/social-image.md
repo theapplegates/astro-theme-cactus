@@ -5,6 +5,53 @@ description: "An example post for Astro Cactus, detailing how to add a custom so
 tags: ["example", "blog", "image"]
 ogImage: "/social-card.png"
 ---
+<div class="shadow-wrapper">
+  <picture class="responsive-picture">
+    <source type="image/jxl" srcset="
+      https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/v1741296945/zmeeymqwjqbjyzu2zxao.jxl 2150w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2147/v1741296945/zmeeymqwjqbjyzu2zxao.jxl 2147w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2108/v1741296945/zmeeymqwjqbjyzu2zxao.jxl 2108w
+    ">
+    <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2108/v1741296945/zmeeymqwjqbjyzu2zxao.jxl"
+         alt="Responsive Image">
+  </picture>
+</div>
+  <source type="image/avif" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/v1741296945/zmeeymqwjqbjyzu2zxao.avif 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2147/v1741296945/zmeeymqwjqbjyzu2zxao.avif 2147w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2108/v1741296945/zmeeymqwjqbjyzu2zxao.avif 2108w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2030/v1741296945/zmeeymqwjqbjyzu2zxao.avif 2030w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1898/v1741296945/zmeeymqwjqbjyzu2zxao.avif 1898w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1780/v1741296945/zmeeymqwjqbjyzu2zxao.avif 1780w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1645/v1741296945/zmeeymqwjqbjyzu2zxao.avif 1645w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1508/v1741296945/zmeeymqwjqbjyzu2zxao.avif 1508w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1368/v1741296945/zmeeymqwjqbjyzu2zxao.avif 1368w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1194/v1741296945/zmeeymqwjqbjyzu2zxao.avif 1194w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_999/v1741296945/zmeeymqwjqbjyzu2zxao.avif 999w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_859/v1741296945/zmeeymqwjqbjyzu2zxao.avif 859w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_643/v1741296945/zmeeymqwjqbjyzu2zxao.avif 643w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_250/v1741296945/zmeeymqwjqbjyzu2zxao.avif 250w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/jpeg" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2147/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 2147w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2108/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 2108w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2030/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 2030w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1898/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 1898w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1780/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 1780w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1645/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 1645w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1508/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 1508w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1368/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 1368w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1194/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 1194w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_999/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 999w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_859/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 859w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_643/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 643w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_250/v1741296945/zmeeymqwjqbjyzu2zxao.jpeg 250w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_250/v1741296945/zmeeymqwjqbjyzu2zxao.jxl" alt="Responsive Image" loading="lazy"></img>
+</picture>
+</div>
+
 
 ![Pic](/src/assets/marek-piwnicki-mountains.jpg)
 
