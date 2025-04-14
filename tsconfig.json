@@ -4,7 +4,7 @@
 		"baseUrl": ".",
 		"lib": ["es2022", "dom", "dom.iterable"],
 		"paths": {
-			"@/*": ["src/*"]
+			"@/*": ["*"]
 		}
 	},
 	"include": [".astro/types.d.ts", "**/*"],

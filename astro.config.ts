@@ -90,13 +90,18 @@ export default defineConfig({
 	},
 	// https://docs.astro.build/en/guides/prefetch/
 	prefetch: true,
-	vite: {
-		optimizeDeps: {
-			exclude: ["@resvg/resvg-js"],
-		},
-		plugins: [tailwind(), rawFonts([".ttf", ".woff"])],
-	},
-	env: {
+vite: {
+    optimizeDeps: {
+      exclude: ["@resvg/resvg-js"],
+    },
+    plugins: [tailwind(), rawFonts([".ttf", ".woff2"])],
+    resolve: {
+      alias: {
+        '@': new URL('./src', import.meta.url).pathname,
+      },
+    },
+  },
+  	env: {
 		schema: {
 			WEBMENTION_API_KEY: envField.string({ context: "server", access: "secret", optional: true }),
 			WEBMENTION_URL: envField.string({ context: "client", access: "public", optional: true }),
