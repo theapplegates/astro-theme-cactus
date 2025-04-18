@@ -1,4 +1,9 @@
 [build]
-  command = 'pnpm build'
+  command = "pnpm build"
+  publish = "dist"
+
 [build.environment]
-GO_VERSION = "1.19"
+  GO_VERSION = ""
+  MISE_SKIP = "1"
+  NODE_VERSION = "20" # or 18, whatever you're using
+  COREPACK_ENABLE = "true"
