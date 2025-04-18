@@ -1,5 +1,4 @@
-[build.environment]
-GO_VERSION = "1.19"
-
 [build]
   command = 'pnpm build'
+[build.environment]
+GO_VERSION = "1.19"
