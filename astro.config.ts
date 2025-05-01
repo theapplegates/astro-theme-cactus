@@ -25,7 +25,7 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 export default defineConfig({
 	site: siteConfig.url,
 	image: {
-		domains: ["webmention.io"],
+		domains: ["webmention.io", "res.cloudinary.com"],
 	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
@@ -94,7 +94,7 @@ export default defineConfig({
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
 		},
-		plugins: [tailwind(), rawFonts([".ttf", ".woff"])],
+		plugins: [tailwind(), rawFonts([".woff2", ".ttf", ".woff"])],
 	},
 	env: {
 		schema: {

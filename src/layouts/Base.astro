@@ -18,10 +18,12 @@ const {
 
 <html class="scroll-smooth" lang={siteConfig.lang}>
 	<head>
+  <script src="https://unpkg.com/cloudinary-core@latest/cloudinary-core-shrinkwrap.js" type="text/javascript">
+  </script>
 		<BaseHead articleDate={articleDate} description={description} ogImage={ogImage} title={title} />
 	</head>
 	<body
-		class="bg-global-bg text-global-text mx-auto flex min-h-screen max-w-3xl flex-col px-4 pt-16 font-mono text-sm font-normal antialiased sm:px-8"
+		class="bg-global-bg text-global-text mx-auto flex min-h-screen max-w-3xl flex-col px-4 pt-16  text-sm font-normal antialiased sm:px-8"
 	>
 		<ThemeProvider />
 		<SkipLink />
@@ -31,4 +33,10 @@ const {
 		</main>
 		<Footer />
 	</body>
+  <script type="text/javascript">
+    var cl = cloudinary.Cloudinary.new({
+      cloud_name: "paulapplegate-com"
+    });
+    cl.responsive();
+  </script>
 </html>
