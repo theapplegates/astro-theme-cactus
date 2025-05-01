@@ -1,0 +1,49 @@
+<style>
+  .credit-container {
+    font-size: 10px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .icon {
+    width: 1em;
+    height: 1em;
+    margin-left: 0.25em;
+  }
+</style>
+<p class="credit-container">
+  <em>Photo by <a href="https://unsplash.com/photos/a-field-of-lavender-flowers-under-a-blue-sky-gnx_-muR0uw?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash">le Sixième Rêve</a> on</em>
+  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+    <path d="M448,230.17V480H0V230.17H141.13V355.09H306.87V230.17ZM306.87,32H141.13V156.91H306.87Z"/>
+  </svg>
+</p>
+
+
+<footer class="relative span-12 mt-lg pt-md size-sm">
+  <random-shapes class="grease-marks bleed-start span-5 mt-xxl -mr-xl hidden@sm absolute" style="width: 30%; inset-block-start: inherit; inset-block-end: 0; inset-inline-end: 0; rotate: -45deg" quantity="10" jitter="10" scale="150"></random-shapes>
+  <p>By <a href="https://aaadaaam.com">AAADAAAM</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg> Have fun.</p>
+</footer>
+
+https://unsplash.com/photos/a-close-up-of-a-lizard-with-a-blurry-background-JSRcFeMRgGc
+
+<style>
+  .credit-container {
+    font-size: 10px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .icon {
+    width: 1em;
+    height: 1em;
+    margin-left: 0.25em;
+  }
+</style>
+<p class="credit-container">
+  <em>Photo by <a href="https://unsplash.com/photos/a-close-up-of-a-lizard-with-a-blurry-background-JSRcFeMRgGc">Arno Moller</a> on</em>
+  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+    <path d="M448,230.17V480H0V230.17H141.13V355.09H306.87V230.17ZM306.87,32H141.13V156.91H306.87Z"/>
+  </svg>
+</p>

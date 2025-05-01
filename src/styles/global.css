@@ -18,20 +18,21 @@
 
 @font-face {
     font-family: "Atkinson Hyperlegible Next VF";
-    src: url("/assets/fonts/AtkinsonHyperlegibleNextVF-Variable.woff2");
+    src: url("/assets/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2");
     font-weight: 200 800;
     unicode-range: U+0020-005F, U+0061-007E, U+00A0-00A7, U+00A9-00AC,
         U+00AE;
 }
 @font-face {
     font-family: "Atkinson Hyperlegible Mono VF";
-    src: url("/assets/fonts/AtkinsonHyperlegibleMonoVF-Variable.woff2");
+    src: url("/assets/AtkinsonHyperlegibleMonoVF-Variable.woff2") format("woff2");
     font-weight: 200 800;
     unicode-range: U+0020-005F, U+0061-007E, U+00A0-00A7, U+00A9-00AC;
 }
 
 @layer base {
 	html {
+        font-family: "Atkinson Hyperlegible Next VF";
 		color-scheme: light dark;
 		accent-color: var(--color-accent);
 

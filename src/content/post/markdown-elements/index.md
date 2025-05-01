@@ -5,10 +5,6 @@ publishDate: "22 Feb 2023"
 updatedDate: 22 Jan 2024
 tags: ["test", "markdown"]
 ---
-<img data-src="<https://res.cloudinary.com/paulapplegate-com/image/upload/v1741320020/f_jxl,q_auto/c_limit,w_auto/dpr_auto/yekjwte8pjni3j007fn2.jxl" alt="test" class="cld-responsive">
-
-
-
 ## This is a H2 Heading
 
 ### This is a H3 Heading
