@@ -5,7 +5,7 @@ publishDate: "22 Feb 2023"
 updatedDate: 22 Jan 2024
 tags: ["test", "markdown"]
 ---
-<img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/f_jxl,q_auto/v1746629777/gene-dizon-f8k9JlCsUuc-unsplash_e7k0nw.jxl" class="cld-responsive">
+<img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/dpr_auto/f_jxl,q_auto/v1746629777/gene-dizon-f8k9JlCsUuc-unsplash_e7k0nw.jxl" class="cld-responsive">
 <style>
   .credit-container {
     font-size: 10px;
