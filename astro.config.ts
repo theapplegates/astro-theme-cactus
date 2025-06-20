@@ -25,6 +25,8 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 export default defineConfig({
 	site: siteConfig.url,
 	image: {
+        responsiveStyles: true,
+        layout: 'constrained',
 		domains: ["webmention.io"],
 	},
 	integrations: [

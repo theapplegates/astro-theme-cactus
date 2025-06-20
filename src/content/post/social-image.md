@@ -5,6 +5,14 @@ description: "An example post for Astro Cactus, detailing how to add a custom so
 tags: ["example", "blog", "image"]
 ogImage: "/social-card.png"
 ---
+<Image
+  src="/gary-bendig.jpg"
+  alt="A baby coon"
+  layout="constrained"
+  width={5472}
+  height={3648}
+  />
+
 
 ## Adding your own social image to a post
 
