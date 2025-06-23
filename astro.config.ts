@@ -27,7 +27,7 @@ export default defineConfig({
 	image: {
         responsiveStyles: true,
         layout: 'constrained',
-		domains: ["webmention.io"],
+		domains: ["webmention.io", "cactus.paulapplegate.com"],
 	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
@@ -96,7 +96,7 @@ export default defineConfig({
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
 		},
-		plugins: [tailwind(), rawFonts([".ttf", ".woff"])],
+		plugins: [tailwind(), rawFonts([".ttf", ".woff", ".woff2"])],
 	},
 	env: {
 		schema: {
