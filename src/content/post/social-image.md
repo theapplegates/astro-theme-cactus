@@ -9,49 +9,58 @@ ogImage: "/social-card.png"
 ## Adding your own social image to a post
 
 <picture>
-  <source type="image/avif" srcset="
-        https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_50/evokujxkfmhnyjeowv15.avif 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_312/evokujxkfmhnyjeowv15.avif 312w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_679/evokujxkfmhnyjeowv15.avif 679w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_712/evokujxkfmhnyjeowv15.avif 712w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_818/evokujxkfmhnyjeowv15.avif 818w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_910/evokujxkfmhnyjeowv15.avif 910w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_982/evokujxkfmhnyjeowv15.avif 982w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_993/evokujxkfmhnyjeowv15.avif 993w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_995/evokujxkfmhnyjeowv15.avif 995w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_1000/evokujxkfmhnyjeowv15.avif 1000w
-  " sizes="100vw">
   <source type="image/jxl" srcset="
-        https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_50/evokujxkfmhnyjeowv15.jxl 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_312/evokujxkfmhnyjeowv15.jxl 312w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_679/evokujxkfmhnyjeowv15.jxl 679w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_712/evokujxkfmhnyjeowv15.jxl 712w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_818/evokujxkfmhnyjeowv15.jxl 818w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_910/evokujxkfmhnyjeowv15.jxl 910w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_982/evokujxkfmhnyjeowv15.jxl 982w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_993/evokujxkfmhnyjeowv15.jxl 993w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_995/evokujxkfmhnyjeowv15.jxl 995w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_1000/evokujxkfmhnyjeowv15.jxl 1000w
+        https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_2000/nbynep79t6pfkpkgflm9.jxl 2000w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_1866/nbynep79t6pfkpkgflm9.jxl 1866w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_1235/nbynep79t6pfkpkgflm9.jxl 1235w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_200/nbynep79t6pfkpkgflm9.jxl 200w
   " sizes="100vw">
+  <source type="image/avif" srcset="
+        https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_2000/nbynep79t6pfkpkgflm9.avif 2000w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_1866/nbynep79t6pfkpkgflm9.avif 1866w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_1235/nbynep79t6pfkpkgflm9.avif 1235w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_200/nbynep79t6pfkpkgflm9.avif 200w
+  " sizes="100vw">
+  <source type="image/jpeg" srcset="
+          https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpeg,w_2000/nbynep79t6pfkpkgflm9.jpeg 2000w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpeg,w_1866/nbynep79t6pfkpkgflm9.jpeg 1866w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpeg,w_1235/nbynep79t6pfkpkgflm9.jpeg 1235w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpeg,w_200/nbynep79t6pfkpkgflm9.jpeg 200w
+        " sizes="100vw">
   <img
-        src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_50/evokujxkfmhnyjeowv15.jpg"
+        src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_2000/nbynep79t6pfkpkgflm9.jpg"
         srcset="
-        https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_50/evokujxkfmhnyjeowv15.jpg 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_312/evokujxkfmhnyjeowv15.jpg 312w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_679/evokujxkfmhnyjeowv15.jpg 679w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_712/evokujxkfmhnyjeowv15.jpg 712w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_818/evokujxkfmhnyjeowv15.jpg 818w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_910/evokujxkfmhnyjeowv15.jpg 910w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_982/evokujxkfmhnyjeowv15.jpg 982w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_993/evokujxkfmhnyjeowv15.jpg 993w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_995/evokujxkfmhnyjeowv15.jpg 995w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_1000/evokujxkfmhnyjeowv15.jpg 1000w
+        https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_2000/nbynep79t6pfkpkgflm9.jpg 2000w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_1866/nbynep79t6pfkpkgflm9.jpg 1866w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_1235/nbynep79t6pfkpkgflm9.jpg 1235w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_200/nbynep79t6pfkpkgflm9.jpg 200w
   "
         sizes="100vw"
-        alt="Responsive evokujxkfmhnyjeowv15"
+        alt="Responsive nbynep79t6pfkpkgflm9"
         loading="lazy"
         decoding="async">
 </picture>
+<style>
+  .credit-container {
+    font-size: 10px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .icon {
+    width: 1em;
+    height: 1em;
+    margin-left: 0.25em;
+  }
+</style>
+
+<p class="credit-container">
+  <em>Photo by <a href="https://unsplash.com/photos/a-woman-running-down-a-dirt-road-next-to-the-ocean-uOtxvT_LuGg?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash">Daniel J. Schwarz</a> on</em>
+  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+    <path d="M448,230.17V480H0V230.17H141.13V355.09H306.87V230.17ZM306.87,32H141.13V156.91H306.87Z"/>
+  </svg>
+</p>
 
 This post is an example of how to add a custom [open graph](https://ogp.me/) social image, also known as an OG image, to a blog post.
 By adding the optional ogImage property to the frontmatter of a post, you opt out of [satori](https://github.com/vercel/satori) automatically generating an image for this page.
