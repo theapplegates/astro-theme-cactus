@@ -1,0 +1,4 @@
+localhost {
+    root * ./dist  # Sets the root directory to your "deploy" folder
+    file_server      # Enables serving static files
+}
