@@ -3,6 +3,46 @@
 /* config for tailwindcss-typography plugin */
 @config "../../tailwind.config.ts";
 
+/* Responsive Image Styles */
+.responsive-image {
+    display: block;
+    width: 100%;
+    max-width: 2200px;
+    margin: 0 auto;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.responsive-img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Art Direction for Different Screen Sizes */
+@media (max-width: 768px) {
+    .responsive-image {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .responsive-image {
+        max-width: 75%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .responsive-image {
+        max-width: 50%;
+    }
+}
+
 /* use a selector-based strategy for dark mode */
 @variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
