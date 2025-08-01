@@ -5,58 +5,24 @@ publishDate: "11 Oct 2023"
 tags: ["webmentions", "astro", "social"]
 updatedDate: 6 December 2024
 ---
-<!-- Cloudinary Responsive Image with Format Fallbacks -->
-<picture class="responsive-image">
-    <!-- JXL format (newest, best compression) -->
-    <source type="image/jxl"
-            srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/w_200,f_jxl,q_auto,dpr_auto/houffed6gu7uhfdqlchv 200w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_450,f_jxl,q_auto,dpr_auto/houffed6gu7uhfdqlchv 450w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_700,f_jxl,q_auto,dpr_auto/houffed6gu7uhfdqlchv 700w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_950,f_jxl,q_auto,dpr_auto/houffed6gu7uhfdqlchv 950w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1200,f_jxl,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1200w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1450,f_jxl,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1450w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1700,f_jxl,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1700w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1950,f_jxl,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1950w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_2200,f_jxl,q_auto,dpr_auto/houffed6gu7uhfdqlchv 2200w"
-            sizes="(max-width: 768px) 100vw,
-                     (max-width: 1024px) 75vw,
-                     50vw">
-
-    <!-- AVIF format (great compression, good support) -->
-    <source type="image/avif"
-            srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/w_200,f_avif,q_auto,dpr_auto/houffed6gu7uhfdqlchv 200w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_450,f_avif,q_auto,dpr_auto/houffed6gu7uhfdqlchv 450w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_700,f_avif,q_auto,dpr_auto/houffed6gu7uhfdqlchv 700w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_950,f_avif,q_auto,dpr_auto/houffed6gu7uhfdqlchv 950w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1200,f_avif,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1200w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1450,f_avif,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1450w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1700,f_avif,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1700w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1950,f_avif,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1950w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_2200,f_avif,q_auto,dpr_auto/houffed6gu7uhfdqlchv 2200w"
-            sizes="(max-width: 768px) 100vw,
-                     (max-width: 1024px) 75vw,
-                     50vw">
-
-    <!-- JPEG fallback (universal support) -->
-    <source type="image/jpeg"
-            srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/w_200,f_jpeg,q_auto,dpr_auto/houffed6gu7uhfdqlchv 200w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_450,f_jpeg,q_auto,dpr_auto/houffed6gu7uhfdqlchv 450w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_700,f_jpeg,q_auto,dpr_auto/houffed6gu7uhfdqlchv 700w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_950,f_jpeg,q_auto,dpr_auto/houffed6gu7uhfdqlchv 950w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1200,f_jpeg,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1200w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1450,f_jpeg,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1450w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1700,f_jpeg,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1700w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1950,f_jpeg,q_auto,dpr_auto/houffed6gu7uhfdqlchv 1950w,
-                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_2200,f_jpeg,q_auto,dpr_auto/houffed6gu7uhfdqlchv 2200w"
-            sizes="(max-width: 768px) 100vw,
-                     (max-width: 1024px) 75vw,
-                     50vw">
-
-    <!-- Fallback img tag -->
-    <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/w_800,f_auto,q_auto/houffed6gu7uhfdqlchv"
-         alt="Responsive image"
-         loading="lazy"
-         class="responsive-img">
+<picture>
+  <source type="image/jxl" srcset="                                                                                                              https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_1500/fytx5fi2rqfu1ytxgyym.jxl 1500w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_1370/fytx5fi2rqfu1ytxgyym.jxl 1370w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_730/fytx5fi2rqfu1ytxgyym.jxl 730w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_200/fytx5fi2rqfu1ytxgyym.jxl 200w
+  " sizes="100vw">                                                                                                                         <source type="image/avif" srcset="
+        https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_1500/fytx5fi2rqfu1ytxgyym.avif 1500w,                             https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_1370/fytx5fi2rqfu1ytxgyym.avif 1370w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_730/fytx5fi2rqfu1ytxgyym.avif 730w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_200/fytx5fi2rqfu1ytxgyym.avif 200w
+  " sizes="100vw">
+  <img                                                                                                                                           src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_1500/fytx5fi2rqfu1ytxgyym.jpg"
+        srcset="                                                                                                                                 https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_1500/fytx5fi2rqfu1ytxgyym.jpg 1500w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_1370/fytx5fi2rqfu1ytxgyym.jpg 1370w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_730/fytx5fi2rqfu1ytxgyym.jpg 730w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_200/fytx5fi2rqfu1ytxgyym.jpg 200w
+  "                                                                                                                                              sizes="100vw"
+        alt="Responsive fytx5fi2rqfu1ytxgyym"                                                                                                    loading="lazy"
+        decoding="async">
 </picture>
 
 ## TLDR
