@@ -4,6 +4,7 @@ description: "This post describes the process of adding webmentions to your own 
 publishDate: "11 Oct 2023"
 tags: ["webmentions", "astro", "social"]
 updatedDate: 6 December 2024
+pinned: true
 ---
 <picture>
   <source type="image/jxl" srcset="                                                                                                              https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_1500/fytx5fi2rqfu1ytxgyym.jxl 1500w,
