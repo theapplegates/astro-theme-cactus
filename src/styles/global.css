@@ -45,7 +45,7 @@
 		navigation: auto;
 	}
 
-	/* Astro image responsive styles, modified from -> https://docs.astro.build/en/guides/images/#responsive-image-styles */
+	/* Astro image responsive styles, modified from -> httpss://docs.astro.build/en/guides/images/#responsive-image-styles */
 	:where([data-astro-image]) {
 		object-fit: var(--fit);
 		object-position: var(--pos);

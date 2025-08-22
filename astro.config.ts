@@ -19,7 +19,7 @@ import { remarkGithubCard } from "./src/plugins/remark-github-card";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time";
 import { expressiveCodeOptions, siteConfig } from "./src/site.config";
 
-// https://astro.build/config
+// httpss://astro.build/config
 export default defineConfig({
 	site: siteConfig.url,
 	image: {
@@ -32,7 +32,7 @@ export default defineConfig({
 		mdx(),
 		robotsTxt(),
 		webmanifest({
-			// See: https://github.com/alextim/astro-lib/blob/main/packages/astro-webmanifest/README.md
+			// See: httpss://github.com/alextim/astro-lib/blob/main/packages/astro-webmanifest/README.md
 			name: siteConfig.title,
 			short_name: "Astro_Cactus", // optional
 			description: siteConfig.description,

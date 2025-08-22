@@ -6,6 +6,34 @@ updatedDate: 22 Jan 2024
 tags: ["test", "markdown"]
 pinned: true
 ---
+<picture>
+  <source type="image/jxl" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1754708133/daniel-j-schwarz.jxl 1000w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_875/v1754708133/daniel-j-schwarz.jxl 875w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_554/v1754708133/daniel-j-schwarz.jxl 554w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1754708133/daniel-j-schwarz.jxl 50w
+  " sizes="(max-width: 6240px) 100vw, 6240px">
+  <source type="image/avif" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1754708133/daniel-j-schwarz.avif 1000w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_898/v1754708133/daniel-j-schwarz.avif 898w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_676/v1754708133/daniel-j-schwarz.avif 676w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1754708133/daniel-j-schwarz.avif 50w
+  " sizes="(max-width: 6240px) 100vw, 6240px">
+  <img
+    src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1754708133/daniel-j-schwarz.jpg"
+    srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1754708133/daniel-j-schwarz.jpg 1000w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_899/v1754708133/daniel-j-schwarz.jpg 899w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_588/v1754708133/daniel-j-schwarz.jpg 588w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1754708133/daniel-j-schwarz.jpg 50w
+  "
+    sizes="(max-width: 6240px) 100vw, 6240px"
+    width="6240"
+    height="4160"
+    alt="Responsive daniel-j-schwarz"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## This is a H2 Heading
 
@@ -53,7 +81,7 @@ Second example containing a reference[^2] with a link to the source.
 
 [^2]: Second reference with a link.
 
-If you check out this example in `src/content/post/markdown-elements/index.md`, you'll notice that the references and the heading "Footnotes" are added to the bottom of the page via the [remark-rehype](https://github.com/remarkjs/remark-rehype#options) plugin.
+If you check out this example in `src/content/post/markdown-elements/index.md`, you'll notice that the references and the heading "Footnotes" are added to the bottom of the page via the [remark-rehype](httpss://github.com/remarkjs/remark-rehype#options) plugin.
 
 ## Lists
 
@@ -134,7 +162,7 @@ function demo() {
 }
 ```
 
-[Expressive Code](https://expressive-code.com/) can do a ton more than shown here, and includes a lot of [customisation](https://expressive-code.com/reference/configuration/).
+[Expressive Code](httpss://expressive-code.com/) can do a ton more than shown here, and includes a lot of [customisation](httpss://expressive-code.com/reference/configuration/).
 
 ## Tables
 
@@ -171,4 +199,4 @@ Image in the same folder: `src/content/post/markdown-elements/logo.png`
 
 ## Links
 
-[Content from markdown-it](https://markdown-it.github.io/)
+[Content from markdown-it](httpss://markdown-it.github.io/)
