@@ -23,7 +23,7 @@ import { expressiveCodeOptions, siteConfig } from "./src/site.config";
 export default defineConfig({
 	site: siteConfig.url,
 	image: {
-		domains: ["webmention.io"],
+		domains: ["webmention.io", "res.cloudinary.com"],
 	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
