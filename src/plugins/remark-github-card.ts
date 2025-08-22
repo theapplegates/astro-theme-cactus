@@ -16,13 +16,13 @@ export const remarkGithubCard: Plugin<[], Root> = () => (tree) => {
 		if (!repoName) return; // Leave the directive as-is if no repo is provided
 
 		repoName = repoName.endsWith("/") ? repoName.slice(0, -1) : repoName; // Remove trailing slash
-		repoName = repoName.startsWith("httpss://github.com/")
-			? repoName.replace("httpss://github.com/", "")
+		repoName = repoName.startsWith("https://github.com/")
+			? repoName.replace("https://github.com/", "")
 			: repoName; // Remove leading URL
 
 		const repoParts = repoName.split("/");
 		const SimpleUUID = `GC-${crypto.randomUUID()}`;
-		const realUrl = `httpss://github.com/${repoName}`;
+		const realUrl = `https://github.com/${repoName}`;
 
 		// If its a repo link
 		if (repoParts.length > 1) {
@@ -30,7 +30,7 @@ export const remarkGithubCard: Plugin<[], Root> = () => (tree) => {
 				{
 					type: "text",
 					value: `
-				fetch('httpss://api.github.com/repos/${repoName}', { referrerPolicy: "no-referrer" })
+				fetch('https://api.github.com/repos/${repoName}', { referrerPolicy: "no-referrer" })
 					.then(response => response.json())
 					.then(data => {
 						const t = document.getElementById('${SimpleUUID}');
@@ -101,7 +101,7 @@ export const remarkGithubCard: Plugin<[], Root> = () => (tree) => {
 				{
 					type: "text",
 					value: `
-				fetch('httpss://api.github.com/users/${repoName}', { referrerPolicy: "no-referrer" })
+				fetch('https://api.github.com/users/${repoName}', { referrerPolicy: "no-referrer" })
 					.then(response => response.json())
 					.then(data => {
 						const t = document.getElementById('${SimpleUUID}');

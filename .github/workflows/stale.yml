@@ -2,7 +2,7 @@
 #
 # You can adjust the behavior by modifying this file.
 # For more information, see:
-# httpss://github.com/actions/stale
+# https://github.com/actions/stale
 name: Mark stale issues and pull requests
 
 on:
