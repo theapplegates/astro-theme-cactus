@@ -54,7 +54,7 @@ export const menuLinks: { path: string; title: string }[] = [
 export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 	styleOverrides: {
 		borderRadius: "4px",
-		codeFontFamily: 'Geist Mono',
+		codeFontFamily: 'Wotfard',
 		codeFontSize: "0.875rem",
 		codeLineHeight: "1.7142857rem",
 		codePaddingInline: "1rem",

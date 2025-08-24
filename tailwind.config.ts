@@ -4,6 +4,10 @@ export default {
 	plugins: [require("@tailwindcss/typography")],
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ['Wotfard', 'system-ui', 'sans-serif'],
+				mono: ['Wotfard', 'ui-monospace', 'monospace'],
+			},
 			typography: () => ({
 				DEFAULT: {
 					css: {

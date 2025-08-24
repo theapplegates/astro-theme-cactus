@@ -83,148 +83,115 @@
 	--tw-prose-th-borders: #666;
 }
 
-/* geist-100 - latin */
+/* wotfard-thin - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
+  font-display: swap;
+  font-family: 'Wotfard';
   font-style: normal;
   font-weight: 100;
-  src: url('/fonts/geist-v3-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/wotfard-thin-webfont.woff2') format('woff2');
 }
-/* geist-200 - latin */
+/* wotfard-thin-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 200;
-  src: url('/fonts/geist-v3-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-300 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 300;
-  src: url('/fonts/geist-v3-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/geist-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-500 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 500;
-  src: url('/fonts/geist-v3-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-600 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/fonts/geist-v3-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-700 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/fonts/geist-v3-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-800 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 800;
-  src: url('/fonts/geist-v3-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-900 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 900;
-  src: url('/fonts/geist-v3-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* geist-mono-100 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist Mono';
-  font-style: normal;
+  font-display: swap;
+  font-family: 'Wotfard';
+  font-style: italic;
   font-weight: 100;
-  src: url('/fonts/geist-mono-v3-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/wotfard-thinitalic-webfont.woff2') format('woff2');
 }
-/* geist-mono-200 - latin */
+/* wotfard-extralight - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist Mono';
+  font-display: swap;
+  font-family: 'Wotfard';
   font-style: normal;
   font-weight: 200;
-  src: url('/fonts/geist-mono-v3-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/wotfard-extralight-webfont.woff2') format('woff2');
 }
-/* geist-mono-300 - latin */
+/* wotfard-extralight-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist Mono';
+  font-display: swap;
+  font-family: 'Wotfard';
+  font-style: italic;
+  font-weight: 200;
+  src: url('/fonts/wotfard-extralightitalic-webfont.woff2') format('woff2');
+}
+/* wotfard-light - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Wotfard';
   font-style: normal;
   font-weight: 300;
-  src: url('/fonts/geist-mono-v3-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/wotfard-light-webfont.woff2') format('woff2');
 }
-/* geist-mono-regular - latin */
+/* wotfard-light-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist Mono';
+  font-display: swap;
+  font-family: 'Wotfard';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/fonts/wotfard-lightitalic-webfont.woff2') format('woff2');
+}
+/* wotfard-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Wotfard';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/geist-mono-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/wotfard-regular-webfont.woff2') format('woff2');
 }
-/* geist-mono-500 - latin */
+/* wotfard-regular-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist Mono';
+  font-display: swap;
+  font-family: 'Wotfard';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/wotfard-regularitalic-webfont.woff2') format('woff2');
+}
+/* wotfard-medium - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Wotfard';
   font-style: normal;
   font-weight: 500;
-  src: url('/fonts/geist-mono-v3-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/wotfard-medium-webfont.woff2') format('woff2');
 }
-/* geist-mono-600 - latin */
+/* wotfard-medium-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist Mono';
+  font-display: swap;
+  font-family: 'Wotfard';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/fonts/wotfard-mediumitalic-webfont.woff2') format('woff2');
+}
+/* wotfard-semibold - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Wotfard';
   font-style: normal;
   font-weight: 600;
-  src: url('/fonts/geist-mono-v3-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/wotfard-semibold-webfont.woff2') format('woff2');
 }
-/* geist-mono-700 - latin */
+/* wotfard-semibold-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist Mono';
+  font-display: swap;
+  font-family: 'Wotfard';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/fonts/wotfard-semibolditalic-webfont.woff2') format('woff2');
+}
+/* wotfard-bold - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Wotfard';
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/geist-mono-v3-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/wotfard-bold-webfont.woff2') format('woff2');
 }
-/* geist-mono-800 - latin */
+/* wotfard-bold-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist Mono';
-  font-style: normal;
-  font-weight: 800;
-  src: url('/fonts/geist-mono-v3-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-mono-900 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist Mono';
-  font-style: normal;
-  font-weight: 900;
-  src: url('/fonts/geist-mono-v3-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap;
+  font-family: 'Wotfard';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/fonts/wotfard-bolditalic-webfont.woff2') format('woff2');
 }
