@@ -96,6 +96,45 @@ You can also view any test mentions in the browser via their [api](https://githu
 
 - At the moment, fresh webmentions are only fetched on a rebuild or restarting dev mode, which obviously means if you don't update your site very often you wont get a lot of new content. It should be quite trivial to add a cron job to run the `getAndCacheWebmentions()` function in `src/utils/webmentions.ts` and populate your blog with new content. This is probably what I'll add next as a github action.
 
+- <picture>
+  <source type="image/jxl" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 717w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1068w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1398w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <source type="image/avif" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 681w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1015w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1328w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <source type="image/jpeg" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 753w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1121w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1468w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <img
+    src="http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1600/v1756003744/tobias-reich.jpg"
+    srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 753w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1121w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1468w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
+  "
+    sizes="(max-width: 1600px) 100vw, 1600px"
+    width="4128"
+    height="6192"
+    alt="Responsive tobias-reich"
+    loading="lazy"
+    decoding="async">
+</picture>
+
 - I have seen some mentions have duplicates. Unfortunately, they're quite difficult to filter out as they have different id's.
 
 - I'm not a huge fan of the little external link icon for linking to comments/replies. It's not particularly great on mobile due to its size, and will likely change it in the future.
