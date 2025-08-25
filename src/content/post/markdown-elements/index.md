@@ -21,12 +21,7 @@ pinned: true
   " sizes="(max-width: 6240px) 100vw, 6240px">
   <img
     src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1754708133/daniel-j-schwarz.jpg"
-    srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1754708133/daniel-j-schwarz.jpg 1000w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_899/v1754708133/daniel-j-schwarz.jpg 899w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_588/v1754708133/daniel-j-schwarz.jpg 588w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1754708133/daniel-j-schwarz.jpg 50w
-  "
+
     sizes="(max-width: 6240px) 100vw, 6240px"
     width="6240"
     height="4160"

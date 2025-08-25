@@ -5,6 +5,32 @@ publishDate: "25 Aug 2024"
 updatedDate: "4 July 2025"
 tags: ["markdown", "admonitions"]
 ---
+<picture>
+  <source type="image/jxl" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.jxl 1000w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_838/v1756090345/aaron-yuan-painting_n57zoa.jxl 838w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1756090345/aaron-yuan-painting_n57zoa.jxl 50w
+  " sizes="(max-width: 7974px) 100vw, 7974px">
+  <source type="image/avif" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.avif 1000w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1756090345/aaron-yuan-painting_n57zoa.avif 50w
+  " sizes="(max-width: 7974px) 100vw, 7974px">
+  <img
+    src="http://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.jpg"
+    srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.jpg 1000w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_945/v1756090345/aaron-yuan-painting_n57zoa.jpg 945w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_665/v1756090345/aaron-yuan-painting_n57zoa.jpg 665w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1756090345/aaron-yuan-painting_n57zoa.jpg 50w
+  "
+    sizes="(max-width: 7974px) 100vw, 7974px"
+    width="7974"
+    height="5518"
+    alt="Responsive aaron-yuan-painting_n57zoa"
+    loading="lazy"
+    decoding="async">
+</picture>
+
 
 ## What are admonitions
 
