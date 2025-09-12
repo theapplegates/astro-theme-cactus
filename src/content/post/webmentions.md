@@ -6,6 +6,72 @@ tags: ["webmentions", "astro", "social"]
 updatedDate: 6 December 2024
 pinned: true
 ---
+<picture>
+  <source type="image/jxl" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 711w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1138w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <source type="image/avif" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 1001w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 1588w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <source type="image/jpeg" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 728w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 1108w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <img
+    src="http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1600/v1757639171/the-cat.jxl"
+    srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 711w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1138w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1600w
+  "
+    sizes="(max-width: 1600px) 100vw, 1600px"
+    width="3559"
+    height="5339"
+    alt="Responsive the-cat"
+    loading="lazy"
+    decoding="async">
+</picture>
+
+<picture>
+  <source type="image/jxl" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 789w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1204w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1420w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <source type="image/jpeg" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 828w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1264w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1491w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <img
+    src="http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1600/v1757534519/zach-kessinger.jpg"
+    srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 789w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1204w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1420w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
+  "
+    sizes="(max-width: 1600px) 100vw, 1600px"
+    width="7008"
+    height="4672"
+    alt="Responsive zach-kessinger"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## TLDR
 
@@ -55,85 +121,11 @@ You can also view any test mentions in the browser via their [api](https://githu
 
 ## Things to add, things to consider
 
-<picture>
-  <source type="image/jxl" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 717w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1068w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1398w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
-  " sizes="(max-width: 1600px) 100vw, 1600px">
-  <source type="image/avif" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 681w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1015w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1328w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
-  " sizes="(max-width: 1600px) 100vw, 1600px">
-  <source type="image/jpeg" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 753w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1121w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1468w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
-  " sizes="(max-width: 1600px) 100vw, 1600px">
-  <img
-    src="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1600/v1756003744/tobias-reich.jpg"
-    srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 753w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1121w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1468w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
-  "
-    sizes="(max-width: 1600px) 100vw, 1600px"
-    width="4128"
-    height="6192"
-    alt="Responsive tobias-reich"
-    loading="lazy"
-    decoding="async">
-</picture>
+<
 
 - At the moment, fresh webmentions are only fetched on a rebuild or restarting dev mode, which obviously means if you don't update your site very often you wont get a lot of new content. It should be quite trivial to add a cron job to run the `getAndCacheWebmentions()` function in `src/utils/webmentions.ts` and populate your blog with new content. This is probably what I'll add next as a github action.
 
-- <picture>
-  <source type="image/jxl" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 717w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1068w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1398w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
-  " sizes="(max-width: 1600px) 100vw, 1600px">
-  <source type="image/avif" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 681w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1015w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1328w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
-  " sizes="(max-width: 1600px) 100vw, 1600px">
-  <source type="image/jpeg" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 753w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1121w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1468w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
-  " sizes="(max-width: 1600px) 100vw, 1600px">
-  <img
-    src="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1600/v1756003744/tobias-reich.jpg"
-    srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 50w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 753w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1121w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1468w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1068/v1756003744/tobias-reich.jpg 1600w
-  "
-    sizes="(max-width: 1600px) 100vw, 1600px"
-    width="4128"
-    height="6192"
-    alt="Responsive tobias-reich"
-    loading="lazy"
-    decoding="async">
-</picture>
+
 
 - I have seen some mentions have duplicates. Unfortunately, they're quite difficult to filter out as they have different id's.
 
