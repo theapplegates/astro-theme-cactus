@@ -7,30 +7,30 @@ ogImage: "/social-card.png"
 ---
 <picture>
   <source type="image/jxl" srcset="
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 50w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 711w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1138w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1600w
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 711w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1138w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <source type="image/avif" srcset="
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 50w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 1001w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 1588w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 1600w
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 1001w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 1588w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,q_auto/c_scale,w_1588/v1757639171/the-cat.avif 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <source type="image/jpeg" srcset="
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 50w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 728w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 1108w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 1600w
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 728w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 1108w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,q_auto/c_scale,w_1108/v1757639171/the-cat.jpg 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <img
-    src="http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1600/v1757639171/the-cat.jxl"
+    src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1600/v1757639171/the-cat.jxl"
     srcset="
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 50w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 711w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1138w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1600w
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 711w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1138w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto/c_scale,w_1138/v1757639171/the-cat.jxl 1600w
   "
     sizes="(max-width: 1600px) 100vw, 1600px"
     width="3559"
@@ -42,27 +42,27 @@ ogImage: "/social-card.png"
 
 <picture>
   <source type="image/jxl" srcset="
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 789w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1204w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1420w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 789w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1204w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1420w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <source type="image/jpeg" srcset="
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 828w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1264w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1491w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 828w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1264w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1491w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <img
-    src="http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1600/v1757534519/zach-kessinger.jpg"
+    src="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1600/v1757534519/zach-kessinger.jpg"
     srcset="
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 789w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1204w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1420w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 789w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1204w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1420w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
   "
     sizes="(max-width: 1600px) 100vw, 1600px"
     width="7008"
@@ -119,7 +119,7 @@ ogImage: "/social-card.png"
 </style>
 <p class="credit-container">
   <em>Photo by <a href="https://unsplash.com/photos/a-lone-chair-sits-in-a-shallow-body-of-water-ZLms1AcFjMQ?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash">Pavlo Talpa</a> on</em>
-  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+  <svg class="icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512">
     <path d="M448,230.17V480H0V230.17H141.13V355.09H306.87V230.17ZM306.87,32H141.13V156.91H306.87Z"/>
   </svg>
 </p>
