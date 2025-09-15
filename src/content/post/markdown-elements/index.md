@@ -8,6 +8,36 @@ pinned: true
 ---
 <picture>
   <source type="image/jxl" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/philipp.jxl?_a=BAMAK+Go0 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_438/philipp.jxl?_a=BAMAK+Go0 438w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_826/philipp.jxl?_a=BAMAK+Go0 826w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1600/philipp.jxl?_a=BAMAK+Go0 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <source type="image/avif" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/philipp.avif?_a=BAMAK+Go0 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_438/philipp.avif?_a=BAMAK+Go0 438w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_826/philipp.avif?_a=BAMAK+Go0 826w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1600/philipp.avif?_a=BAMAK+Go0 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <img
+    src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1600/philipp?_a=BAMAK+Go0"
+    srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/philipp?_a=BAMAK+Go0 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_438/philipp?_a=BAMAK+Go0 438w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_826/philipp?_a=BAMAK+Go0 826w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1600/philipp?_a=BAMAK+Go0 1600w
+  "
+    sizes="(max-width: 1600px) 100vw, 1600px"
+    width="8169"
+    height="5446"
+    alt="Responsive philipp"
+    loading="lazy"
+    decoding="async">
+</picture>
+
+
+<picture>
+  <source type="image/jxl" srcset="
     https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1754708133/daniel-j-schwarz.jxl 1000w,
     https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_875/v1754708133/daniel-j-schwarz.jxl 875w,
     https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_554/v1754708133/daniel-j-schwarz.jxl 554w,
