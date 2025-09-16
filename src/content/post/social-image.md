@@ -7,36 +7,36 @@ ogImage: "/social-card.png"
 ---
 <picture>
   <source type="image/jxl" srcset="
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 50w,
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 934w,
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 1600w
-  " sizes="(max-width: 1600px) 100vw, 1600px">
-  <source type="image/avif" srcset="
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 50w,
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 838w,
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 1200w,
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 1600w
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 710w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1062w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1393w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <source type="image/jpeg" srcset="
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 50w,
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 719w,
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 1104w,
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 1600w
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 746w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1115w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1463w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <img
-    src="https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1600/v1757968155/_volvo_xc90_exterior.jpg"
+    src="http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1600/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg"
     srcset="
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 50w,
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 934w,
-    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 1600w
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 710w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1062w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1393w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1600w
   "
     sizes="(max-width: 1600px) 100vw, 1600px"
-    width="5100"
-    height="3400"
-    alt="Responsive _Volvo_XC90_exterior"
+    width="4000"
+    height="6000"
+    alt="Responsive mos-design-SfnOJ6c3ySw-unsplash"
     loading="lazy"
     decoding="async">
 </picture>
+
 
 ## Adding your own social image to a post
 
