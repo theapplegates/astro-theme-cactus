@@ -7,21 +7,21 @@ tags: ["markdown", "admonitions"]
 ---
 <picture>
   <source type="image/jxl" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.jxl 1000w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_838/v1756090345/aaron-yuan-painting_n57zoa.jxl 838w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1756090345/aaron-yuan-painting_n57zoa.jxl 50w
+    https://res.cloudinary.com/paulapplegate.com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.jxl 1000w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/c_scale,w_838/v1756090345/aaron-yuan-painting_n57zoa.jxl 838w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/c_scale,w_50/v1756090345/aaron-yuan-painting_n57zoa.jxl 50w
   " sizes="(max-width: 7974px) 100vw, 7974px">
   <source type="image/avif" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.avif 1000w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1756090345/aaron-yuan-painting_n57zoa.avif 50w
+    https://res.cloudinary.com/paulapplegate.com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.avif 1000w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/c_scale,w_50/v1756090345/aaron-yuan-painting_n57zoa.avif 50w
   " sizes="(max-width: 7974px) 100vw, 7974px">
   <img
-    src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.jpg"
+    src="https://res.cloudinary.com/paulapplegate.com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.jpg"
     srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.jpg 1000w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_945/v1756090345/aaron-yuan-painting_n57zoa.jpg 945w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_665/v1756090345/aaron-yuan-painting_n57zoa.jpg 665w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1756090345/aaron-yuan-painting_n57zoa.jpg 50w
+    https://res.cloudinary.com/paulapplegate.com/image/upload/c_scale,w_1000/v1756090345/aaron-yuan-painting_n57zoa.jpg 1000w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/c_scale,w_945/v1756090345/aaron-yuan-painting_n57zoa.jpg 945w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/c_scale,w_665/v1756090345/aaron-yuan-painting_n57zoa.jpg 665w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/c_scale,w_50/v1756090345/aaron-yuan-painting_n57zoa.jpg 50w
   "
     sizes="(max-width: 7974px) 100vw, 7974px"
     width="7974"
