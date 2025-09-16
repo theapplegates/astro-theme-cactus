@@ -7,32 +7,32 @@ ogImage: "/social-card.png"
 ---
 <picture>
   <source type="image/jxl" srcset="
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 50w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 710w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1062w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1393w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1600w
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 789w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1204w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1420w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <source type="image/jpeg" srcset="
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 50w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 746w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1115w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1463w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1600w
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 828w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1264w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1491w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <img
-    src="http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1600/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg"
+    src="http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1600/v1757534519/zach-kessinger.jpg"
     srcset="
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 50w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 710w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1062w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1393w,
-    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1062/v1756088440/mos-design-sfnoj6c3ysw-unsplash.jpg 1600w
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 789w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1204w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1420w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1204/v1757534519/zach-kessinger.jpg 1600w
   "
     sizes="(max-width: 1600px) 100vw, 1600px"
-    width="4000"
-    height="6000"
-    alt="Responsive mos-design-SfnOJ6c3ySw-unsplash"
+    width="7008"
+    height="4672"
+    alt="Responsive zach-kessinger"
     loading="lazy"
     decoding="async">
 </picture>
