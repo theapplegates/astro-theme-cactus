@@ -7,28 +7,28 @@ ogImage: "/social-card.png"
 ---
 <picture>
   <source type="image/jxl" srcset="
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 50w,
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 934w,
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 1600w
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 50w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 934w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <source type="image/avif" srcset="
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 50w,
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 838w,
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 1200w,
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 1600w
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 50w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 838w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 1200w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1200/v1757968155/_volvo_xc90_exterior.jpg 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <source type="image/jpeg" srcset="
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 50w,
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 719w,
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 1104w,
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 1600w
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 50w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 719w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 1104w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1104/v1757968155/_volvo_xc90_exterior.jpg 1600w
   " sizes="(max-width: 1600px) 100vw, 1600px">
   <img
-    src="http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1600/v1757968155/_volvo_xc90_exterior.jpg"
+    src="https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_1600/v1757968155/_volvo_xc90_exterior.jpg"
     srcset="
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 50w,
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 934w,
-    http://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 1600w
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 50w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 934w,
+    https://res.cloudinary.com/paulapplegate.com/image/upload/q_auto/c_scale,w_934/v1757968155/_volvo_xc90_exterior.jpg 1600w
   "
     sizes="(max-width: 1600px) 100vw, 1600px"
     width="5100"
